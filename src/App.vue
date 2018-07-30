@@ -17,10 +17,7 @@ export default {
   components: {
     Skills
   }
-  ,   mounted() {
-     var input = document.getElementById('searchTextField');
-  new google.maps.places.Autocomplete(input);
-  }
+  
 }
 </script>
 
